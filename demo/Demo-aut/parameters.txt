@@ -1,0 +1,8 @@
+{
+"name": "Demo-aut",
+"activationFct": "ReLU()",
+"initialization": "<function xavier_normal_ at 0x1233ce280>",
+"architecture": "[10, 5, 10]",
+"module": "autoencoderModule(\n  (activationFct): ReLU()\n  (encoder): Sequential(\n    (0): Linear(in_features=10, out_features=5, bias=True)\n    (1): ReLU()\n  )\n  (decoder): Sequential(\n    (0): Linear(in_features=5, out_features=10, bias=True)\n  )\n)",
+"saveflag": "0"
+}
